@@ -1,0 +1,15 @@
+{
+    "name": "generationtux/json-middleware",
+    "description": "A simple laravel/lumen middleware for denying non-json POST and PUT requests.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Damien Russell",
+            "email": "christopher.russell@seven-26.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/http": "~5.1"
+    }
+}
