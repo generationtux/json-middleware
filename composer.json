@@ -10,11 +10,11 @@
     ],
     "autoload": {
         "psr-4": {
-            "GenTux\\": "src/"
+            "GenTux\\Json\\": "src/"
         }
     },
     "minimum-stability": "stable",
     "require": {
-        "illuminate/http": "~5.1"
+        "illuminate/http": "^5.1"
     }
 }

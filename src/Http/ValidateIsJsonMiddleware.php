@@ -1,6 +1,6 @@
 <?php
 
-namespace GenTux\Http;
+namespace GenTux\Json\Http;
 
 use Closure;
 
