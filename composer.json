@@ -8,7 +8,12 @@
             "email": "christopher.russell@seven-26.com"
         }
     ],
-    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "GenTux\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
     "require": {
         "illuminate/http": "~5.1"
     }
