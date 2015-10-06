@@ -16,7 +16,8 @@ class ValidateIsJsonMiddleware
     public function handle($request, Closure $next)
     {
         if ($request->isMethod('POST') || $request->isMethod('PUT')) {
-            if ( ! $request->isJson() ) {
+            json_decode($request->getContent());
+            if (json_last_error() != JSON_ERROR_NONE) {
                 return response()->json("Request must be json", 400);
             }
         }
